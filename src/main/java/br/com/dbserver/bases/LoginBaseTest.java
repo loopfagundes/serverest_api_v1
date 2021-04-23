@@ -14,6 +14,7 @@ public class LoginBaseTest extends Endpoint {
     protected static RequestSpecification loginRequest;
     protected static ResponseSpecification loginResponse;
     private LoginModel loginModel = new LoginModel();
+    protected static String author;
 
     @BeforeClass
     public void setUp() {
